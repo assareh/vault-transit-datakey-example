@@ -15,7 +15,7 @@ const KEY_NAME = "my_app_key"
 
 func init() {
 	cfg := api.DefaultConfig()
-	cfg.Address = "http://127.0.0.1:8200"
+	cfg.Address = "https://vault.assareh.com:8200"
 
 	c, err := api.NewClient(cfg)
 	if err != nil {
